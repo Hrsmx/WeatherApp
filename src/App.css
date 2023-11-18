@@ -1,38 +1,83 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Unbounded&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Unbounded", cursive;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  overflow-x: hidden;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.bg_img {
+  width: 100%;
   min-height: 100vh;
+  background: url(images/bg.jpg) no-repeat center center/cover;
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
+  color: #fff;
+}
+
+.input {
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+.group {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.city {
+  margin-top: 2rem;
+}
+
+.city,
+.temp {
+  font-size: 3rem;
+}
+
+.box_container {
+  margin-top: 2rem;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 25px;
 }
 
-.App-link {
-  color: #61dafb;
+.box {
+  padding: 1rem;
+  border-radius: 12px;
+  background-color: rgba(0, 0, 0, 0.75);
+  width: 220px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  opacity:inherit;
+  gap: 10px;
+  transition: transform 0.2s;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.box:hover {
+  transform: scale(1.1);
+}
+
+@media only screen and (max-width: 730px) {
+  .bg_img {
+    padding: 2rem 0;
   }
-  to {
-    transform: rotate(360deg);
+
+  .box_container {
+    flex-direction: column;
+  }
+
+  .box,
+  .input {
+    width: 70vw;
   }
 }
