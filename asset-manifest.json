@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Hrsmx/WeatherApp/static/css/main.2dbe7ddd.css",
+    "main.js": "/Hrsmx/WeatherApp/static/js/main.84caaff7.js",
+    "static/js/787.42650831.chunk.js": "/Hrsmx/WeatherApp/static/js/787.42650831.chunk.js",
+    "static/media/bg.jpg": "/Hrsmx/WeatherApp/static/media/bg.428112a29f0f80d0c2ec.jpg",
+    "index.html": "/Hrsmx/WeatherApp/index.html",
+    "main.2dbe7ddd.css.map": "/Hrsmx/WeatherApp/static/css/main.2dbe7ddd.css.map",
+    "main.84caaff7.js.map": "/Hrsmx/WeatherApp/static/js/main.84caaff7.js.map",
+    "787.42650831.chunk.js.map": "/Hrsmx/WeatherApp/static/js/787.42650831.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2dbe7ddd.css",
+    "static/js/main.84caaff7.js"
+  ]
+}
